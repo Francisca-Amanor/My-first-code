@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
   <title>Obaapa's Mini-Market</title>
   
 </head>
@@ -15,7 +17,7 @@
   </section> -->
   <nav id="navbar">
     <h1 class="logo">
-      <span>Franca's</span>World
+      <span class="text-primary"> <i class="fa-solid fa-handshake-angle"></i>Franca's</span>World
     </h1>
     <ul>
       <li><a href="#Home">Home</a></li>
@@ -27,7 +29,7 @@
 
   <header id="showcase">
     <div class="show-content">
-      <h1 class="1-leading"> Christ In Me Hope Of Glory</h1>
+      <h1 class="1-leading"> Making Life Beautiful and Comfortable To Afford</h1>
       <p class="lead">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni exercitationem placeat vero fuga fugiat animi ipsa? Corporis accusamus doloribus, et unde explicabo numquam officia non sunt aliquid laudantium accusantium repellat ratione perferendis, sint amet, sapiente similique obcaecati tempore voluptas incidunt! Distinctio neque quasi iste nostrum, similique quidem assumenda fuga.
       </p>
@@ -39,8 +41,8 @@
   <section id="what" class="bg-light py-1">
 <div class="container">
 
-      <h2>
-        <span>what</span> we do
+      <h2 class="m-heading text-center">
+        <span class="text-primary">what</span> we do
       </h2>
       <div class="items">
 
@@ -100,16 +102,56 @@
   <!--projects-->
   <Section id="clients" class="py-1">
     <div class="container">
-      <h2><span>Our</span> Clients</h2>
+      <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
       <div class="items py-1">
         <div><img src="images/logo/—Pngtree—whatsapp icon whatsapp logo_3584844.png" alt=""></div>
         <div><img src="images/vlad-hilitanu-1FI2QAYPa-Y-unsplash.jpg" alt=""></div>
-        <div><img src="images/logo/—Pngtree—whatsapp icon whatsapp logo_3584844.png" alt=""></div>
+        <div><img src="images/tyler-lee-F7zFObxyQaI-unsplash.jpg" alt=""></div>
         <div><img src="images/lona-0BaEdsR8IRY-unsplash.jpg" alt=""></div>
-        <div><img src="images/logo/—Pngtree—whatsapp icon whatsapp logo_3584844.png" alt=""></div>
+        <div><img src="images/vlad-hilitanu-1FI2QAYPa-Y-unsplash.jpg" alt=""></div>
       </div>
     </div>
 
   </Section>
+
+  <!--contact section-->
+  <section id="contact">
+
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p CLASS="">Please use the form below to contact us</p>
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="phone" class="form-control" id="Phone" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          
+        </div>
+        <input type="submit" value="send" class="btn btn-dark">
+
+
+      </form>
+
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with love &#10084 Francisca Amanor &copy; 2022</p>
+  </footer>
 </body>
 </html>
